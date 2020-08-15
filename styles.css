@@ -1,0 +1,133 @@
+body {
+    background-color: rgba(34, 33, 33, 0.76);
+}
+
+.dark-theme header {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.light-theme header {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+    color: black;
+}
+
+#header {
+    font-family: mr_PotraLightG;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-size: 4rem;
+    display: flex;
+}
+
+.dark-theme nav {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 1vh;
+}
+
+.light-theme nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-top: black solid 2px;
+    border-bottom: black solid 2px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 1vh;
+}
+
+#nav_ul li {
+    list-style-type: none;
+    display: inline;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    font-size: 1rem;
+}
+
+#nav_ul {
+    align-self: center;
+    display: flex;
+}
+
+.dark-theme #nav_ul a {
+    color: white;
+}
+
+.light-theme #nav_ul a {
+    color: black;
+}
+
+.dark-theme #theme-changer {
+    align-content: center;
+    font-size: 1rem;
+    border: 0px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    right: 1vw;
+    align-self: center;
+    
+}
+
+.light-theme #theme-changer {
+    align-content: center;
+    font-size: 1rem;
+    border: 0px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 1vw;
+    align-self: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    height: 3000px;
+}
+
+.dark-theme #content {
+    background-color: black;
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 60vw;
+}
+
+.light-theme #content {
+    background-color: white;
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 60vw;
+}
+
+
+.dark-theme #content a {
+    color: white;
+}
+
+.light-theme #content a {
+    color: black;
+}
+
+
+@font-face {
+
+    font-family: "mr_PotraLightG"; 
+    src: url("fonts/mr_PotraLightG.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
