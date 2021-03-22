@@ -33,7 +33,7 @@ body {
     display: flex;
     align-content: center;
     justify-content: center;
-    padding-top: 1vh;
+    padding-top: 1rem;
 }
 
 .light-theme nav {
@@ -45,7 +45,7 @@ body {
     display: flex;
     align-content: center;
     justify-content: center;
-    padding-top: 1vh;
+    padding-top: 1rem;
 }
 
 #nav_ul li {
@@ -78,7 +78,6 @@ body {
     position: absolute;
     right: 1vw;
     align-self: center;
-    
 }
 
 .light-theme #theme-changer {
@@ -126,10 +125,26 @@ iframe {
     width: 60vw;
 }
 
+.information {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.information p {
+    text-align: start;
+}
+
+.anchor {
+    margin-top: 6vh;
+    display: inline-block;
+    position: relative;
+    height: 1px;
+    width: 1px;
+}
 
 @font-face {
-    font-family: "mr_PotraLightG"; 
-    src: url("fonts/mr_PotraLightG.ttf") format("truetype"); 
-    font-style: normal; 
-    font-weight: normal; 
+    font-family: "mr_PotraLightG";
+    src: url("fonts/mr_PotraLightG.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
