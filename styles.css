@@ -92,6 +92,16 @@ body {
     align-self: center;
 }
 
+#content {
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+    height: 35vh;
+    border: 0;
+}
+
 #container {
     display: flex;
     justify-content: center;
@@ -100,6 +110,7 @@ body {
 
 .dark-theme #content {
     background-color: black;
+    color: white;
     padding-top: 1.5rem;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -108,6 +119,7 @@ body {
 
 .light-theme #content {
     background-color: white;
+    color: black;
     padding-top: 1.5rem;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -115,17 +127,7 @@ body {
 }
 
 
-.dark-theme #content a {
-    color: white;
-}
-
-.light-theme #content a {
-    color: black;
-}
-
-
 @font-face {
-
     font-family: "mr_PotraLightG"; 
     src: url("fonts/mr_PotraLightG.ttf") format("truetype"); 
     font-style: normal; 
