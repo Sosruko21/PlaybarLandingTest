@@ -1,5 +1,13 @@
-body {
+.dark-theme .background  {
     background-color: rgba(34, 33, 33, 0.76);
+    background: url(fon.png);
+    background-size: 100%;
+}
+
+.light-theme .background {
+    background-color: rgba(34, 33, 33, 0.76);
+    background: url(fon_negative.png);
+    background-size: 100%;
 }
 
 .dark-theme header {
