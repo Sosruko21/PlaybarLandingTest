@@ -83,8 +83,7 @@
     border: 0px;
     background-color: white;
     color: black;
-    position: absolute;
-    right: 1vw;
+    right: 0.5rem;
     align-self: center;
 }
 
@@ -92,10 +91,9 @@
     align-content: center;
     font-size: 1rem;
     border: 0px;
-    background-color: black;
-    color: white;
-    position: absolute;
-    right: 1vw;
+    background-color: white;
+    color: black;
+    right: 0.5rem;
     align-self: center;
 }
 
@@ -206,9 +204,9 @@ footer {
     #nav_ul li {
         list-style-type: none;
         display: inline;
-        padding-left: 5vw;
-        padding-right: 5vw;
-        font-size: 2vh;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        font-size: 1.7vh;
     }
     #nav_ul {
         align-self: center;
@@ -222,22 +220,20 @@ footer {
     }
     .dark-theme #theme-changer {
         align-content: center;
-        font-size: 1rem;
+        font-size: inherit;
         border: 0px;
         background-color: white;
         color: black;
-        position: absolute;
-        right: 1vw;
+        right: 0.5rem;
         align-self: center;
     }
     .light-theme #theme-changer {
         align-content: center;
-        font-size: 1rem;
+        font-size: inherit ;
         border: 0px;
-        background-color: black;
-        color: white;
-        position: absolute;
-        right: 1vw;
+        background-color: white;
+        color: black;
+        right: 0.5rem;
         align-self: center;
     }
     #container {
